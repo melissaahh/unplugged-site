@@ -83,10 +83,63 @@ textarea {
 /* ==========================================================================
    Author's custom styles
    ========================================================================== */
-.content-wrapper{
-  width: 90%;
-  margin: 50px 0;
+/* General Styles */
+ 
+html {
+	font-size: 1rem;
 }
+ 
+body {
+  font-size: 1em;
+  font-family: 'Open Sans', sans-serif;
+  text-align: left;
+}
+ 
+ul, 
+ol {
+ list-style-type: none;
+}
+ 
+a {
+	color: #e2e3ed;
+  text-decoration: none;
+}
+ 
+h2 {
+  font-family: 'Poppins', sans-serif;
+  font-size: 1.875em;
+
+}
+ 
+h3, 
+h4 {
+  font-family: 'Poppins', sans-serif;
+  margin: 20px 0;
+  font-size: 1.125em;
+}
+ 
+p {
+  font-size: .875rem;
+  line-height: 1.285em;
+}
+ 
+img {
+ 
+}
+ 
+figure {
+ 
+}
+ 
+address {
+ font-style: normal;
+}
+ 
+.content-wrapper {
+ width: 90%;
+ margin: 50px 0;
+}
+
 
 /*--------- Base Header and Footer styles---------*/
 
@@ -132,7 +185,7 @@ footer p{
 }
 
 footer .content-wrapper {
-  width 55%;
+  width: 55%;
 }
 
 footer .contact {
@@ -205,6 +258,10 @@ aside p {
 .features {
   display: flex;
   justify-content: center;
+}
+
+.features h2 {
+  margin-bottom: 60px;
 }
 
 .features .features-items {
@@ -356,6 +413,10 @@ footer p {
 
 .faq h2 {
   margin-bottom: 40px;
+}
+
+.faq-content {
+  margin-bottom: 50px;
 }
 
 
