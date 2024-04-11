@@ -219,6 +219,7 @@ footer .social-icons {
   display: flex;
   justify-content: space-around;
   align-items: center;
+  
 }
 
 footer .social-icons p {
@@ -229,6 +230,7 @@ footer .social-icons p {
   display: flex;
   justify-content: center;
   align-items: center;
+  
 }
 
 footer .social-icons p i {
